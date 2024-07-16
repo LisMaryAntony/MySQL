@@ -15,15 +15,6 @@ ________________________________________________________________________
 6, "CREATE TABLE" query creates a new table named "ReturnStatus" with specified columns including Return_Id - Set as PRIMARY KEY, Return_cust, Return_book_name, Return_date, Isbn_book2 - Set as FOREIGN KEY and it should refer isbn in BOOKS table . 
 
 Then "DESC" query displays the structure of the particular tables.
-Eg:
-+---------------+--------------+------+-----+---------+-------+
-| Field         | Type         | Null | Key | Default | Extra |
-+---------------+--------------+------+-----+---------+-------+
-| Branch_no     | int          | NO   | PRI | NULL    |       |
-| Manager_Id    | int          | YES  |     | NULL    |       |
-| Branch_address| varchar(255) | YES  |     | NULL    |       |
-| Contact_no    | varchar(15)  | YES  |     | NULL    |       |
-+---------------+--------------+------+-----+---------+-------+
 
 Then "INSERT INTO (table_name) VALUES" statement is used to insert new rows into all the table in the database.
 
